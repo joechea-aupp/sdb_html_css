@@ -1,3 +1,11 @@
+/* position
+
+static: default value, follow the normal flow of the document
+relative: relative to its normal position
+absolute: relative to the nearest positioned ancestor
+
+*/
+
 .parent {
   background-color: #d2d2d2;
   padding: 20px;
@@ -10,6 +18,9 @@
 
 .child1 {
   background-color: orange;
+  position: relative;
+  top: 50px;
+  left: 100px;
 }
 
 .child2 {
