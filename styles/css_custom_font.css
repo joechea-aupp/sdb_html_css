@@ -1,0 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+
+.parent h1,
+.parent h2,
+.parent h3 {
+  font-family: "Oswald", sans-serif;
+  color: blueviolet;
+}
