@@ -1,0 +1,25 @@
+#orange-title {
+    color: orange; 
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+/* direct child*/
+#child-1 > #orange-title {
+    font-size: 50px;
+}
+
+/* direct sibling */
+#child-1 + #child-2 {
+    background-color: blue;
+}
+
+/* any sibling */
+#child-1 ~ #child-3 {
+    background-color: green;
+}
+
+
+

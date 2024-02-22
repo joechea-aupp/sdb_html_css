@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title">Document</title>
+</head>
+<body>
+    
+    <form >
+        <!-- <form action="" method="post"></form> -->
+        <label for="name">
+            Name
+        </label>
+        <input type="text" id="name"/>
+
+        <label for="email">
+            Email
+        </label>
+        <input type="email" id="email" required/>
+
+        <label for="password">password</label>
+        <input type="password" id="password">
+
+        <label for="gender">Select Gender</label>
+        <select id="gender">
+            <option disabled>Select dropdown</option>
+            <option>Male</option>
+            <option>Female</option>
+        </select>
+
+        <label for="description">Description</label>
+        <textarea id="description" cols="50" rows="6">
+        </textarea>
+
+
+        <label for="brand">Choose a Brand:</label>
+        <input list="brands" id="brand" />
+
+        <datalist id="brands">
+            <option value="Addidas">
+            <option value="Nike">
+            <option value="Puma">
+            <option value="Skechers">
+            <option value="DKS">
+        </datalist>
+
+        <button type="submit">submit</button>
+        <button>reset</button>
+    </form>
+
+</body>
+</html>

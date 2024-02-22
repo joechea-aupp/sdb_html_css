@@ -1,0 +1,156 @@
+<!-- html tag is a root tag for html document, every html file should have html tag -->
+<html>
+  <!-- head tag contain all the information that user can't see within the web page, it's main use to provide extra information to the browser -->
+  <head>
+    <title>Hello world</title>
+
+    <style>
+      .title {
+        text-decoration: underline;
+        font-size: 20px;
+      }
+
+      .sub-title {
+        font-size: 18px;
+      }
+
+      table,
+      tr,
+      td,
+      th {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+
+  <!-- any contain place inside body tag will be show on the browser -->
+  <body>
+    <h1>Welcome to your first HTML session</h1>
+    <p>
+      There are different level of &lt;h&gt; tag that you can use, each level of
+      heading or &lt;h&gt; is used to represent the importance of the text.
+    </p>
+
+    <h2 class="title">Below are the different level of heading tags:</h2>
+    <h1>h1 Heading</h1>
+    <h2>h2 Heading</h2>
+    <h3>h3 Heading</h3>
+    <h4>h4 Heading</h4>
+    <h5>h5 Heading</h5>
+
+    <!-- this tag is use to add horizontal line across the screen, notice there's no closing tag for this -->
+    <!-- anything that has / at the end of the tag name is call self closing tag example: <something /> -->
+    <hr />
+
+    <h2 class="title">
+      You can put a list of text into a formatted list by using &lt;ul&gt; or
+      &lt;ol&gt;
+    </h2>
+
+    <h3 class="sub-title">Un-order list</h3>
+    <ul>
+      <li>list 1</li>
+      <li>list 2</li>
+      <li>list 2</li>
+    </ul>
+
+    <h3 class="sub-title">Order list</h3>
+    <ol>
+      <li>list 1</li>
+      <li>list 2</li>
+      <li>list 2</li>
+    </ol>
+
+    <hr />
+
+    <h2 class="title">Table</h2>
+    <!-- p tag is use to store paragraph text, that mean to show detail information -->
+    <p>
+      You create create a table structure that consist of rows and columns by
+      using &lt;table&gt; tag. With table tag you can specified columns name and
+      data inside each row.
+    </p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>id</th>
+          <th>name</th>
+          <th>phone</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>samuth</td>
+          <td>012344567</td>
+        </tr>
+
+        <tr>
+          <td>2</td>
+          <td colspan="2">Joe "merge with 3rd field"</td>
+          <!-- colspan attribute has merge its field with the 3rd field -->
+        </tr>
+        <tr>
+          <td>3</td>
+          <td rowspan="2">Smith</td>
+          <td>012344567</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <!-- rowspan attribute has merge its field with row 4, second field -->
+          <td>012344567</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <hr />
+    <h2 class="title">Div tag</h2>
+    <p>
+      Div is a fundamental building block in HTML used for structuring and
+      organizing content on a web page
+    </p>
+    <div>
+      <p>
+        <!-- to generate random text in vscode, type lorem and tab -->
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum rem
+        distinctio nostrum maxime possimus quasi quis, repellat harum, ea, hic
+        repudiandae! Debitis eos fugiat similique numquam dignissimos nesciunt
+        labore? Quisquam.
+      </p>
+    </div>
+    <hr />
+    <h2 class="title">Img tag</h2>
+    <p>
+      img tag without its attribute would not be able to produce meaningful
+      information to be shown on a web page it needs to have src attribute to
+      specify the image location and alt attribute to provide alternative text
+      for the image
+    </p>
+    <img src="imgs/person.jpg" alt="this is my image" />
+    <img
+      src="https://www.aupp.edu.kh/wp-content/uploads/Logo-Do-Not-1-scaled.jpg"
+      alt="aupp brand information"
+      height="50%"
+      width="50%"
+    />
+
+    <hr />
+    <h2 class="title">A tag</h2>
+    <p>
+      The "a" tag in HTML is used for creating hyperlinks, which allow users to
+      navigate from one web page to another. It can also be used to link to
+      different sections within the same page. The destination of the hyperlink
+      is specified in the href attribute.
+    </p>
+    <a
+      href="https://www.google.com"
+      target="_parent"
+      title="this link is to google"
+      >Google.com</a
+    >
+    <hr />
+  </body>
+  <!-- footer is an optional tag that can be use to add editional information to the webpage  -->
+  <footer>copyright 2024</footer>
+</html>
