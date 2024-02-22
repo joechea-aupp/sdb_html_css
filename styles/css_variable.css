@@ -1,0 +1,11 @@
+.parent {
+  --mainColor: #a1b2c3;
+}
+
+.child-level-1 {
+  color: var(--mainColor);
+}
+
+.child-level-2 {
+  color: var(--mainColor);
+}
