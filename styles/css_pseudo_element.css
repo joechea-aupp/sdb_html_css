@@ -1,2 +1,19 @@
+h1::before {
+  content: "> ";
+  color: red;
+}
 
+.child1 p::before,
+.child1 p::after {
+  color: #d2d2d2;
+  font-size: 64px;
+  font-style: italic;
+}
 
+.child1 p::before {
+  content: open-quote;
+}
+
+.child1 p::after {
+  content: close-quote;
+}
