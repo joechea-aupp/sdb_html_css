@@ -19,6 +19,9 @@ absolute: relative to the nearest positioned ancestor
 
 .child1 {
   background-color: orange;
+  position: fixed;
+  top: 100px;
+  left: 100px;
 }
 
 .child2 {
