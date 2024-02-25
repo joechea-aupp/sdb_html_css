@@ -2,6 +2,13 @@
     background-color: #e2e2e2;
     padding: 10px;
     display: flex;
+    /* flex-direction: row;  */
+    /* row-reverse, column, column-reverse */
+    /* flex-wrap: wrap; */
+    /* default nowrap */
+    flex-flow: row wrap;
+    /* row: flex-direction, flex-wrap: wrap */
+
 }
 
 .item {
