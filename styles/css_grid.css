@@ -1,10 +1,23 @@
 .container {
-    background-color: #e2e2e2;
-    padding: 10px;
+  background-color: #e2e2e2;
+  padding: 10px;
+  display: grid;
+
+  /* grid-template-columns: 25% 30% auto; */
+  /* grid-template-columns: repeat(4, 100px); */
+  /* grid-template-columns: repeat(auto-fill, 100px); */
+  grid-template-columns: 200px minmax(200px, 1fr) 3fr 2fr;
+  grid-template-rows: repeat(3, 150px);
+
+  /* grid-row-gap: 10px;
+  grid-column-gap: 10px; */
+  /* or */
+  grid-gap: 10px 20px;
+  /* 10px for row and 20px for coloumn */
 }
 
 .item {
-    background-color: tomato;
-    padding: 5px;
-    color: white;
+  background-color: tomato;
+  padding: 5px;
+  color: white;
 }
