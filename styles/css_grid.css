@@ -1,0 +1,10 @@
+.container {
+    background-color: #e2e2e2;
+    padding: 10px;
+}
+
+.item {
+    background-color: tomato;
+    padding: 5px;
+    color: white;
+}
